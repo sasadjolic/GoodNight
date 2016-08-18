@@ -469,7 +469,7 @@
 				TargetAttributes = {
 					925B811D1BE2BCE1003A6C4B = {
 						CreatedOnToolsVersion = 7.2;
-						DevelopmentTeam = BYK5B23A5C;
+						DevelopmentTeam = F769YN9LL8;
 						SystemCapabilities = {
 							com.apple.ApplicationGroups.iOS = {
 								enabled = 1;
@@ -481,7 +481,7 @@
 					};
 					B9E536451B38D90D0097BF90 = {
 						CreatedOnToolsVersion = 7.0;
-						DevelopmentTeam = BYK5B23A5C;
+						DevelopmentTeam = F769YN9LL8;
 						SystemCapabilities = {
 							com.apple.ApplicationGroups.iOS = {
 								enabled = 1;
@@ -674,6 +674,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				CODE_SIGN_ENTITLEMENTS = GoodNight/GoodNight.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: SDA Software Associates Inc.";
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -683,9 +684,9 @@
 				GCC_THUMB_SUPPORT = NO;
 				INFOPLIST_FILE = "$(SRCROOT)/GoodNight/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.agatiello.adhoc.GoodNight;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sda.goodnight;
 				PRODUCT_NAME = GoodNight;
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "397c0dad-0e12-4a6b-a0f9-6f11b60414ab";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Enterprise;
@@ -696,12 +697,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_ENTITLEMENTS = "GoodNight Widget/GoodNight Widget.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				ENABLE_BITCODE = NO;
 				GCC_PREFIX_HEADER = GoodNight/PrefixHeader.pch;
 				INFOPLIST_FILE = "GoodNight Widget/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.agatiello.adhoc.GoodNight.GoodNight-Widget";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sda.goodnight.widget;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "0230555a-7dd6-4809-8673-6eef7c3fb925";
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
@@ -726,6 +729,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_ENTITLEMENTS = "GoodNight Widget/GoodNight Widget.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: SDA Software Associates Inc.";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_BITCODE = NO;
@@ -743,8 +747,9 @@
 				INFOPLIST_FILE = "GoodNight Widget/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.agatiello.adhoc.GoodNight.GoodNight-Widget";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sda.goodnight.widget;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "0230555a-7dd6-4809-8673-6eef7c3fb925";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				VALIDATE_PRODUCT = YES;
@@ -800,6 +805,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				CODE_SIGN_ENTITLEMENTS = GoodNight/GoodNight.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -809,9 +815,9 @@
 				GCC_THUMB_SUPPORT = NO;
 				INFOPLIST_FILE = "$(SRCROOT)/GoodNight/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.agatiello.adhoc.GoodNight;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sda.goodnight;
 				PRODUCT_NAME = GoodNight;
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "397c0dad-0e12-4a6b-a0f9-6f11b60414ab";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
